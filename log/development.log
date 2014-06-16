@@ -1,0 +1,2855 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-08 13:51:32 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered D:/Ruby200/lib/ruby/gems/2.0.0/gems/railties-4.1.1/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 39ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (450.0ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (360.0ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (6.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateRestaurants (20140608115239)
+  [1m[35m (173.0ms)[0m  CREATE TABLE `restaurants` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (157.0ms)[0m  [1mCREATE UNIQUE INDEX `index_restaurants_on_name`  ON `restaurants` (`name`) [0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (7.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140608115239')[0m
+  [1m[35m (18.0ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-08 14:04:05 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 6475ms (Views: 6474.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-08 14:04:12 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-08 14:04:12 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-08 14:04:12 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-08 14:04:12 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-08 14:04:12 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-08 14:04:12 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-08 14:04:12 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-08 14:04:12 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-08 14:04:12 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-08 14:04:12 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-08 14:16:30 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1146ms (Views: 1145.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-08 14:16:31 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-08 14:16:31 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-08 14:16:31 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-08 14:16:31 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-08 14:16:31 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-08 14:16:31 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-08 14:16:31 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-08 14:16:32 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-08 14:16:32 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-08 14:16:32 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-08 14:16:32 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-08 14:16:32 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-08 14:16:32 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-08 14:17:08 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 576ms (Views: 575.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-08 14:17:09 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-08 14:17:09 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-08 14:17:09 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-08 14:17:09 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-08 14:17:09 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-08 14:17:09 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-08 14:17:09 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-08 14:17:09 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-08 14:17:09 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-08 14:17:09 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-08 14:17:09 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-08 14:17:09 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-08 14:17:09 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-08 14:21:51 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-08 14:21:51 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-08 14:21:51 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-08 14:21:51 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-08 14:21:51 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-08 14:21:51 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-08 14:21:51 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-08 14:21:51 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-08 14:21:52 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-08 14:21:52 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-08 14:21:52 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-08 14:21:52 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-08 14:21:52 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-08 14:21:52 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-08 14:21:54 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-08 14:21:54 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-08 14:21:54 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-08 14:21:54 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-08 14:21:54 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-08 14:21:54 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-08 14:21:54 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-08 14:21:54 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-08 14:21:54 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-08 14:21:54 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-08 14:21:54 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-08 14:21:54 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-08 14:21:54 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-08 14:21:54 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-08 14:30:52 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-08 14:30:53 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-08 14:30:53 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-08 14:30:53 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-08 14:30:53 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-08 14:30:53 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-08 14:30:53 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-08 14:30:53 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-08 14:30:53 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-08 14:30:53 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-08 14:30:53 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-08 14:30:53 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-08 14:30:53 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-08 14:30:53 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-08 14:30:55 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-08 14:30:55 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-08 14:30:55 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-08 14:30:55 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-08 14:30:55 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-08 14:30:56 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-08 14:30:56 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-08 14:30:56 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-08 14:30:56 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-08 14:30:56 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-08 14:30:56 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-08 14:30:56 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-08 14:30:56 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-08 14:30:56 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-08 14:30:56 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 13:45:32 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (377.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 433ms (Views: 402.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 13:45:35 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 13:45:35 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 13:45:35 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 13:45:35 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 13:45:35 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 13:45:35 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 13:45:35 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 13:45:35 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 13:45:35 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 13:45:35 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 13:45:35 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 13:45:35 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 13:45:35 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 13:45:49 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 13:46:17 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 13:57:07 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 764ms (Views: 763.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:08 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:08 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:08 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:08 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:08 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:08 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:08 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:08 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:08 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:08 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:08 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:08 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:08 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 13:57:10 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:11 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:11 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:11 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:11 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:11 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:11 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:11 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:11 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:11 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:11 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:11 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:11 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:11 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 13:57:13 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:13 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:13 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:13 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:13 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:13 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:13 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:13 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:13 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:13 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:13 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:13 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:13 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:13 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 13:57:14 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:14 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:14 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:14 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:14 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:14 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:14 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:14 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:14 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:14 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:14 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:15 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:15 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:15 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 13:57:15 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:16 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:17 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:17 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:17 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:17 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:17 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 13:57:17 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 13:58:12 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 13:58:13 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 13:58:13 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 13:58:13 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 13:58:13 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 13:58:13 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 13:58:13 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 13:58:13 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 13:58:13 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 13:58:13 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 13:58:13 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 13:58:13 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 13:58:13 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 13:58:13 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 14:00:38 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 217ms (Views: 216.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 14:00:39 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 14:00:39 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 14:00:39 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 14:00:39 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 14:00:39 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 14:00:39 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 14:00:39 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 14:00:39 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 14:00:39 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:00:39 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 14:00:39 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 14:00:39 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 14:00:39 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 14:00:50 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 14:00:54 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 14:04:17 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 305ms (Views: 304.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 14:04:17 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 14:04:17 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 14:04:17 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 14:04:17 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 14:04:17 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 14:04:17 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 14:04:17 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 14:04:17 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 14:04:17 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 14:04:17 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 14:04:18 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 14:04:18 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:04:18 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 14:04:20 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 14:04:20 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 14:04:20 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 14:04:20 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 14:04:20 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 14:04:20 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 14:04:20 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:04:20 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 14:04:20 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 14:04:20 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 14:04:20 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 14:04:20 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 14:04:20 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 14:04:20 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 14:07:13 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 14:07:13 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 14:07:13 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 14:07:13 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 14:07:13 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 14:07:13 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 14:07:14 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 14:07:14 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 14:07:14 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 14:07:14 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:07:14 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 14:07:14 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 14:07:14 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 14:07:14 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 14:08:49 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 139ms (Views: 138.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 14:08:49 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 14:08:49 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 14:08:49 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 14:08:49 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 14:08:49 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 14:08:49 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 14:08:49 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 14:08:49 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 14:08:49 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:08:49 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 14:08:49 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 14:08:49 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 14:08:49 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mRestaurant Exists (18.0ms)[0m  [1mSELECT  1 AS one FROM `restaurants`  WHERE `restaurants`.`name` = 'The French Laundry' LIMIT 1[0m
+  [1m[35mSQL (19.0ms)[0m  INSERT INTO `restaurants` (`created_at`, `name`, `updated_at`) VALUES ('2014-06-12 12:11:09', 'The French Laundry', '2014-06-12 12:11:09')
+  [1m[36m (17.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mRestaurant Exists (1.0ms)[0m  [1mSELECT  1 AS one FROM `restaurants`  WHERE `restaurants`.`name` = 'Chez Panisse' LIMIT 1[0m
+  [1m[35mSQL (11.0ms)[0m  INSERT INTO `restaurants` (`created_at`, `name`, `updated_at`) VALUES ('2014-06-12 12:11:09', 'Chez Panisse', '2014-06-12 12:11:09')
+  [1m[36m (19.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mRestaurant Exists (73.0ms)[0m  [1mSELECT  1 AS one FROM `restaurants`  WHERE `restaurants`.`name` = 'Bouchon' LIMIT 1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO `restaurants` (`created_at`, `name`, `updated_at`) VALUES ('2014-06-12 12:11:09', 'Bouchon', '2014-06-12 12:11:09')
+  [1m[36m (15.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mRestaurant Exists (1.0ms)[0m  [1mSELECT  1 AS one FROM `restaurants`  WHERE `restaurants`.`name` = 'Noma' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO `restaurants` (`created_at`, `name`, `updated_at`) VALUES ('2014-06-12 12:11:09', 'Noma', '2014-06-12 12:11:09')
+  [1m[36m (11.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mRestaurant Exists (0.0ms)[0m  [1mSELECT  1 AS one FROM `restaurants`  WHERE `restaurants`.`name` = 'Taco Bell' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO `restaurants` (`created_at`, `name`, `updated_at`) VALUES ('2014-06-12 12:11:09', 'Taco Bell', '2014-06-12 12:11:09')
+  [1m[36m (11.0ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 14:17:37 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1721ms (Views: 1721.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 14:17:39 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 14:17:39 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 14:17:39 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 14:17:39 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 14:17:39 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 14:17:39 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 14:17:39 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 14:17:39 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 14:17:39 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:17:39 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:17:39 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 14:17:39 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 14:17:39 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 14:17:39 +0200
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:17:44 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (2.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (63.0ms)
+Completed 200 OK in 74ms (Views: 44.0ms | ActiveRecord: 24.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:18:12 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (21.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (58.0ms)
+Completed 200 OK in 67ms (Views: 44.0ms | ActiveRecord: 21.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:18:15 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (4.0ms)
+Completed 200 OK in 18ms (Views: 12.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:18:17 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (5.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (10.0ms)
+Completed 200 OK in 22ms (Views: 14.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:18:18 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (3.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:18:20 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (6.0ms)
+Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 14:18:22 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 14:18:23 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 14:18:23 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 14:18:23 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 14:18:23 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 14:18:23 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 14:18:23 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 14:18:23 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 14:18:23 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 14:18:23 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:18:23 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 14:18:23 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:18:23 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 14:18:23 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 14:18:23 +0200
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:18:24 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (4.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (42.0ms)
+Completed 200 OK in 52ms (Views: 47.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:18:27 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (3.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:19:51 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (21.0ms)
+Completed 200 OK in 32ms (Views: 29.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 14:21:25 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 14:21:26 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 14:21:26 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 14:21:26 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 14:21:26 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 14:21:26 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 14:21:26 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 14:21:26 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 14:21:26 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 14:21:26 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:21:26 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 14:21:26 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:21:26 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 14:21:26 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 14:21:26 +0200
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:21:26 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (4.0ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 14:24:57 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1118ms (Views: 1117.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 14:24:58 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 14:24:58 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 14:24:58 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 14:24:58 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 14:24:58 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 14:24:58 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 14:24:58 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 14:24:59 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 14:24:59 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:24:59 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:24:59 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:24:59 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 14:24:59 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 14:24:59 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 14:24:59 +0200
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:24:59 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (5.0ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/1.json" for 127.0.0.1 at 2014-06-12 14:25:01 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 1 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (2.0ms)
+Completed 200 OK in 13ms (Views: 6.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:25:05 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (5.0ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/2.json" for 127.0.0.1 at 2014-06-12 14:25:06 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 2 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (3.0ms)
+Completed 200 OK in 11ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:25:08 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (6.0ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants/3.json" for 127.0.0.1 at 2014-06-12 14:25:09 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 3 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (3.0ms)
+Completed 200 OK in 15ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:25:10 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (7.0ms)
+Completed 200 OK in 17ms (Views: 14.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants/4.json" for 127.0.0.1 at 2014-06-12 14:25:11 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 4 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (1.0ms)
+Completed 200 OK in 10ms (Views: 6.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:25:12 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (4.0ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/5.json" for 127.0.0.1 at 2014-06-12 14:25:14 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 5 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (1.0ms)
+Completed 200 OK in 11ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:25:16 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (5.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 14:25:19 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 14:25:19 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:19 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:19 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 14:25:19 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 14:25:19 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 14:25:19 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:19 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:19 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:19 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:19 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:19 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:19 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:19 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:19 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:19 +0200
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:25:22 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (4.0ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 14:25:24 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 14:25:24 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 14:25:24 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:24 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 14:25:24 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:24 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 14:25:24 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:24 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:24 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:24 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:24 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:24 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:24 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:24 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:24 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 14:25:24 +0200
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:25:24 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (3.0ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/1.json" for 127.0.0.1 at 2014-06-12 14:25:26 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 1 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (1.0ms)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:25:27 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (11.0ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants/1.json" for 127.0.0.1 at 2014-06-12 14:27:44 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 1 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (1.0ms)
+Completed 200 OK in 11ms (Views: 6.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:27:45 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (5.0ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/2.json" for 127.0.0.1 at 2014-06-12 14:27:46 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 2 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (10.0ms)
+Completed 200 OK in 25ms (Views: 17.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:27:47 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (3.0ms)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants/3.json" for 127.0.0.1 at 2014-06-12 14:27:48 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 3 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (0.0ms)
+Completed 200 OK in 11ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:27:49 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (5.0ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/5.json" for 127.0.0.1 at 2014-06-12 14:27:51 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 5 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (0.0ms)
+Completed 200 OK in 11ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:27:52 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (3.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (11.0ms)
+Completed 200 OK in 22ms (Views: 17.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 14:31:02 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 14:31:02 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 14:31:02 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 14:31:02 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 14:31:02 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 14:31:02 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 14:31:02 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 14:31:02 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:31:02 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:31:02 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 14:31:02 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 14:31:02 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 14:31:02 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 14:31:02 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 14:31:02 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 14:31:03 +0200
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:31:03 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (4.0ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/1.json" for 127.0.0.1 at 2014-06-12 14:31:12 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 1 LIMIT 1
+  Rendered restaurants/show.json.jbuilder (0.0ms)
+Completed 200 OK in 10ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 14:31:24 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (6.0ms)
+Completed 200 OK in 37ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/1.json" for 127.0.0.1 at 2014-06-12 15:27:20 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 1 LIMIT 1
+  Rendered restaurants/show.json.jbuilder (0.0ms)
+Completed 200 OK in 12ms (Views: 8.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 15:27:22 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (4.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/1.json" for 127.0.0.1 at 2014-06-12 15:27:35 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 1 LIMIT 1
+  Rendered restaurants/show.json.jbuilder (1.0ms)
+Completed 200 OK in 11ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 15:28:05 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 15:28:06 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 15:28:06 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 15:28:06 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 15:28:06 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:06 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:06 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:06 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:06 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:06 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:06 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:06 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:06 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:06 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:06 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:06 +0200
+
+
+Started GET "/restaurants/1.json" for 127.0.0.1 at 2014-06-12 15:28:06 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 1 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (0.0ms)
+Completed 200 OK in 8ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 15:28:09 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (34.0ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 15:28:22 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 15:28:22 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 15:28:22 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:22 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 15:28:22 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:22 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 15:28:22 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:22 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:22 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:22 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:23 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:23 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:23 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:23 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:23 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 15:28:23 +0200
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 15:28:23 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (4.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/1.json" for 127.0.0.1 at 2014-06-12 15:28:24 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 1 LIMIT 1
+  Rendered restaurants/show.json.jbuilder (1.0ms)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 15:28:25 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (6.0ms)
+Completed 200 OK in 107ms (Views: 106.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 15:28:28 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (11.0ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/1.json" for 127.0.0.1 at 2014-06-12 15:28:29 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 1 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (8.0ms)
+Completed 200 OK in 41ms (Views: 15.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 15:28:30 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (3.0ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 15:28:35 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (4.0ms)
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 15:29:18 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 15:29:19 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 15:29:19 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 15:29:19 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 15:29:19 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 15:29:19 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 15:29:19 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 15:29:19 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 15:29:19 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 15:29:19 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 15:29:19 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 15:29:19 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 15:29:19 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 15:29:19 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 15:29:19 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 15:29:19 +0200
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 15:29:23 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (3.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/1.json" for 127.0.0.1 at 2014-06-12 15:29:27 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 1 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (1.0ms)
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 15:29:28 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (3.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants/1.json" for 127.0.0.1 at 2014-06-12 15:33:49 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 1 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (1.0ms)
+Completed 200 OK in 12ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 15:33:50 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (4.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/2.json" for 127.0.0.1 at 2014-06-12 15:33:52 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[36mRestaurant Load (3.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 2 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (0.0ms)
+Completed 200 OK in 10ms (Views: 5.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 15:33:53 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (10.0ms)
+Completed 200 OK in 24ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 15:33:55 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (4.0ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/1.json" for 127.0.0.1 at 2014-06-12 16:00:45 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 1 LIMIT 1
+  Rendered restaurants/show.json.jbuilder (1.0ms)
+Completed 200 OK in 11ms (Views: 6.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 16:00:46 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (3.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 16:00:49 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (5.0ms)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 16:02:17 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 319ms (Views: 291.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 16:02:18 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 16:02:18 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 16:02:18 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 16:02:18 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 16:02:18 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 16:02:18 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 16:02:18 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 16:02:18 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 16:02:18 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 16:02:18 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 16:02:18 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 16:02:18 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 16:02:18 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 16:02:18 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 16:02:18 +0200
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 16:02:18 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (25.0ms)
+Completed 200 OK in 33ms (Views: 21.0ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-12 18:02:38 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-12 18:02:38 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-12 18:02:38 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-12 18:02:38 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-12 18:02:38 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-12 18:02:38 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-12 18:02:38 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-12 18:02:38 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-12 18:02:39 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-12 18:02:39 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 18:02:39 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 18:02:39 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-12 18:02:39 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-12 18:02:39 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-12 18:02:39 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 18:02:39 +0200
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-12 18:02:39 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (6.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (9.0ms)
+Completed 200 OK in 17ms (Views: 10.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-13 17:18:15 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (63.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 459ms (Views: 433.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-13 17:18:16 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-13 17:18:17 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 17:18:17 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-13 17:18:17 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-13 17:18:17 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:17 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:17 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:17 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:17 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:17 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:17 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:17 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:17 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:17 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:17 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:17 +0200
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-13 17:18:19 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (32.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (74.0ms)
+Completed 200 OK in 84ms (Views: 37.0ms | ActiveRecord: 43.0ms)
+
+
+Started GET "/restaurants/2.json" for 127.0.0.1 at 2014-06-13 17:18:21 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[36mRestaurant Load (37.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 2 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (1.0ms)
+Completed 200 OK in 47ms (Views: 6.0ms | ActiveRecord: 37.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-13 17:18:22 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (5.0ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-13 17:18:52 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 329ms (Views: 328.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-13 17:18:53 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-13 17:18:53 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-13 17:18:53 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 17:18:53 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:53 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:53 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:53 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:53 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:53 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:53 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:53 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:53 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:53 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:53 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:53 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:53 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 17:18:53 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-13 17:19:26 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 330ms (Views: 329.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 17:19:26 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:26 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:26 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-13 17:19:26 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-13 17:19:26 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-13 17:19:26 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:26 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:26 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:26 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:26 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:27 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:27 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:27 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:27 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:27 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-13 17:19:51 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 263ms (Views: 262.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:51 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-13 17:19:51 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 17:19:51 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-13 17:19:51 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:51 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-13 17:19:51 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:51 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:51 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:51 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:51 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:51 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:51 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:51 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:51 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:51 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:52 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:52 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:52 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:52 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:52 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:52 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 17:19:52 +0200
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-13 17:19:52 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (5.0ms)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-13 17:19:54 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (4.0ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-13 17:25:24 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (5.0ms)
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants/2.json" for 127.0.0.1 at 2014-06-13 17:34:43 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 2 LIMIT 1
+  Rendered restaurants/show.json.jbuilder (2.0ms)
+Completed 200 OK in 15ms (Views: 10.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-13 17:34:44 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (12.0ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants/1.json" for 127.0.0.1 at 2014-06-13 17:34:46 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 1 LIMIT 1
+  Rendered restaurants/show.json.jbuilder (1.0ms)
+Completed 200 OK in 13ms (Views: 9.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-13 17:34:46 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (3.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (7.0ms)
+Completed 200 OK in 14ms (Views: 8.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/restaurants/3.json" for 127.0.0.1 at 2014-06-13 17:34:47 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[35mRestaurant Load (3.0ms)[0m  SELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 3 LIMIT 1
+  Rendered restaurants/show.json.jbuilder (0.0ms)
+Completed 200 OK in 25ms (Views: 6.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-13 17:34:48 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (3.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (6.0ms)
+Completed 200 OK in 13ms (Views: 9.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-13 17:34:50 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (5.0ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants/5.json" for 127.0.0.1 at 2014-06-13 17:34:53 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 5 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (1.0ms)
+Completed 200 OK in 23ms (Views: 13.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-13 17:34:53 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (3.0ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/1.json" for 127.0.0.1 at 2014-06-13 22:52:20 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 1 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (1.0ms)
+Completed 200 OK in 14ms (Views: 8.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-13 22:52:22 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (9.0ms)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants/4.json" for 127.0.0.1 at 2014-06-13 23:17:13 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mRestaurant Load (2.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 4 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (1.0ms)
+Completed 200 OK in 16ms (Views: 8.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-13 23:17:14 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (3.0ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants/1.json" for 127.0.0.1 at 2014-06-13 23:17:15 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 1 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (1.0ms)
+Completed 200 OK in 21ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-13 23:17:16 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (3.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/4.json" for 127.0.0.1 at 2014-06-13 23:17:17 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 4 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (5.0ms)
+Completed 200 OK in 18ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-13 23:17:18 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (3.0ms)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants/5.json" for 127.0.0.1 at 2014-06-13 23:17:19 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 5 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (0.0ms)
+Completed 200 OK in 13ms (Views: 6.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-13 23:17:20 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (6.0ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/1.json" for 127.0.0.1 at 2014-06-13 23:17:21 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 1 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (1.0ms)
+Completed 200 OK in 18ms (Views: 6.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-13 23:17:21 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (3.0ms)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-13 23:17:24 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (4.0ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants/5.json" for 127.0.0.1 at 2014-06-13 23:17:25 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 5 LIMIT 1
+  Rendered restaurants/show.json.jbuilder (89.0ms)
+Completed 200 OK in 100ms (Views: 96.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-13 23:17:26 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (3.0ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 21:15:50 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (161.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 430ms (Views: 401.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 21:15:52 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-14 21:15:52 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 21:15:52 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 21:15:52 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 21:15:52 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-14 21:15:52 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-14 21:15:52 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-14 21:15:52 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-14 21:15:52 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-14 21:15:52 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-14 21:15:52 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-14 21:15:52 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-14 21:15:52 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-14 21:15:52 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 21:15:52 +0200
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-14 21:15:57 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (56.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (95.0ms)
+Completed 200 OK in 105ms (Views: 38.0ms | ActiveRecord: 62.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 21:29:40 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (29.0ms)
+Completed 500 Internal Server Error in 41ms
+
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    1: <h1>StaticPages#index</h1>
+    2: <p>Find me in app/views/static_pages/index.html.erb</p>
+    3: 
+    4: <%= form_for @restaurant, :html => {:'data-restaurant-form' => @restaurant.id || 0} do |f| %>
+    5:   <%= f.text_field :name, { :'ng-model' => 'restaurant.name'} %>
+    6: 
+    7:   <%= f.submit %>
+  app/views/static_pages/index.html.erb:4:in `_app_views_static_pages_index_html_erb___34691690_22619664'
+
+
+  Rendered D:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered D:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered D:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 21:35:06 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 112ms
+
+ActionView::Template::Error (couldn't find file 'angular-rails-templates'
+  (in D:/SitesWWW/restauranteur/app/assets/javascripts/application.js:18)):
+    3: <head>
+    4:   <title>Restauranteur</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___178374733_43865844'
+
+
+  Rendered D:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered D:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered D:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (81.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 21:35:40 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 193ms (Views: 189.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-14 21:35:40 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 21:35:40 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 21:35:40 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-14 21:35:40 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 21:35:40 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 21:35:40 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-14 21:35:40 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-14 21:35:40 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-14 21:35:40 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-14 21:35:40 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-14 21:35:40 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-14 21:35:40 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-14 21:35:40 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-14 21:35:40 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 21:35:40 +0200
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-14 21:35:41 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (5.0ms)
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 21:36:39 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 21:36:40 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 21:36:40 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-14 21:36:40 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:40 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-14 21:36:40 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:40 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:40 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:40 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:40 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:40 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:40 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:40 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:40 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:40 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:40 +0200
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-14 21:36:40 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (12.0ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-14 21:36:44 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (4.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 21:36:59 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-14 21:36:59 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 21:36:59 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 21:36:59 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:59 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-14 21:36:59 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:59 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:59 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:59 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:59 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:59 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:59 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:59 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:59 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:59 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 21:36:59 +0200
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-14 21:37:00 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (7.0ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/1.json" for 127.0.0.1 at 2014-06-14 21:37:01 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (29.0ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 1 LIMIT 1[0m
+  Rendered restaurants/show.json.jbuilder (1.0ms)
+Completed 200 OK in 38ms (Views: 6.0ms | ActiveRecord: 29.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-14 21:37:02 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (8.0ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 21:37:22 +0200
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 21:37:22 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 21:37:22 +0200
+
+
+Started GET "/assets/restaurants.css?body=1" for 127.0.0.1 at 2014-06-14 21:37:22 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-06-14 21:37:22 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 21:37:22 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 21:37:22 +0200
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2014-06-14 21:37:22 +0200
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-14 21:37:22 +0200
+
+
+Started GET "/assets/angular-mocks.js?body=1" for 127.0.0.1 at 2014-06-14 21:37:22 +0200
+
+
+Started GET "/assets/angular/controllers/HomeCtrl.js?body=1" for 127.0.0.1 at 2014-06-14 21:37:22 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantIndexCtrl.js?body=1" for 127.0.0.1 at 2014-06-14 21:37:22 +0200
+
+
+Started GET "/assets/angular/controllers/RestaurantShowCtrl.js?body=1" for 127.0.0.1 at 2014-06-14 21:37:22 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-06-14 21:37:22 +0200
+
+
+Started GET "/assets/restaurants.js?body=1" for 127.0.0.1 at 2014-06-14 21:37:22 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 21:37:23 +0200
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-14 21:37:23 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (3.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/5.json" for 127.0.0.1 at 2014-06-14 21:37:25 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[35mRestaurant Load (1.0ms)[0m  SELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 5 LIMIT 1
+  Rendered restaurants/show.json.jbuilder (2.0ms)
+Completed 200 OK in 20ms (Views: 16.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-14 21:37:28 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (27.0ms)
+Completed 200 OK in 33ms (Views: 31.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants/1.json" for 127.0.0.1 at 2014-06-14 21:37:29 +0200
+Processing by RestaurantsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT  `restaurants`.* FROM `restaurants`  WHERE `restaurants`.`id` = 1 LIMIT 1
+  Rendered restaurants/show.json.jbuilder (1.0ms)
+Completed 200 OK in 12ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-14 21:37:30 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered restaurants/index.json.jbuilder (30.0ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants.json" for 127.0.0.1 at 2014-06-14 21:37:35 +0200
+Processing by RestaurantsController#index as JSON
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT `restaurants`.* FROM `restaurants`
+  Rendered restaurants/index.json.jbuilder (5.0ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
